@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #A6D1FF;
+    color: white;
+    padding: 20px;
+}
+
+.btn-secondary {
+    background-color: #e0e0e0;
+    color: black;
+    border: none;
+}
+
+.navbar {
+    background-color: #93ADBD;
+}
+
+section {
+    max-width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #E3F2FD; 
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 15px;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #2C3E50;
+}
+
+.dark-mode .navbar {
+    background-color: #34495E;
+}
+
+.dark-mode section {
+    background-color: #1E293B; 
+}
+
+.dark-mode footer {
+    background-color: #000;
+}
